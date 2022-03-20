@@ -24,3 +24,12 @@ TIMESTAMP WITH TIME ZONE '2021-11-20T03:00:00Z', 1);
 INSERT INTO tb_offer (edition, start_moment, end_moment, course_id) VALUES ('2.0', 
 TIMESTAMP WITH TIME ZONE '2020-12-20T03:00:00Z',
 TIMESTAMP WITH TIME ZONE '2021-12-20T03:00:00Z', 1);
+
+INSERT INTO tb_resource(title, description, position, img_uri, type, offer_id) VALUES
+('Trilha HTML', 'Trilha Principal do Curso', 1, 'https://cdn.iconscout.com/icon/free/png-256/java-file-50-775421.png', 1, 1);
+
+INSERT INTO tb_resource(title, description, position, img_uri, type, offer_id) VALUES
+('Fórum', 'Tire sua dúvidas', 2, 'https://cdn.iconscout.com/icon/free/png-256/java-file-50-775421.png', 2, 1);
+
+INSERT INTO tb_resource(title, description, position, img_uri, type, offer_id) VALUES
+('Lives', 'Lives Exclusivas para a turma', 3, 'https://cdn.iconscout.com/icon/free/png-256/java-file-50-775421.png', 0, 1);
