@@ -33,3 +33,12 @@ INSERT INTO tb_resource(title, description, position, img_uri, type, offer_id) V
 
 INSERT INTO tb_resource(title, description, position, img_uri, type, offer_id) VALUES
 ('Lives', 'Lives Exclusivas para a turma', 3, 'https://cdn.iconscout.com/icon/free/png-256/java-file-50-775421.png', 0, 1);
+
+INSERT INTO tb_section(title, description, position, img_uri, resource_id, prerequisite_id) VALUES
+('Capítulo 1', 'Inicio das aulas', 1, 'https://cdn.iconscout.com/icon/free/png-256/java-file-50-775421.png', 1, null);
+
+INSERT INTO tb_section(title, description, position, img_uri, resource_id, prerequisite_id) VALUES
+('Capítulo 2', 'Metade das aulas', 2, 'https://cdn.iconscout.com/icon/free/png-256/java-file-50-775421.png', 1, 1);
+
+INSERT INTO tb_section(title, description, position, img_uri, resource_id, prerequisite_id) VALUES
+('Capítulo 3', 'Final das aulas', 3, 'https://cdn.iconscout.com/icon/free/png-256/java-file-50-775421.png', 1, 2);
